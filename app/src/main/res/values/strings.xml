@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GDSC LoginPage</string>
+    <string name="enter_name">Full Name</string>
+    <string name="password">Password</string>
+    <string name="enter_email">Email address</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="log_in">Log In</string>
+</resources>
