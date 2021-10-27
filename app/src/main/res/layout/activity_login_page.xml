@@ -7,6 +7,15 @@
     android:background="@drawable/background"
     tools:context=".SignupPage">
 
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/img"
+        app:layout_constraintBottom_toTopOf="@id/emailInputLayout"
+        app:layout_constraintStart_toStartOf="parent"/>
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/emailInputLayout"
         style="@style/Widget.Material3.TextInputLayout.OutlinedBox.Dense"
